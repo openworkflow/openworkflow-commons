@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.camunda.commons.testing;
+package co.openworkflow.commons.testing;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

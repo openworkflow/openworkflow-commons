@@ -2,19 +2,19 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.camunda.commons</groupId>
-    <artifactId>camunda-commons-root</artifactId>
-    <version>1.13.0</version>
+    <groupId>co.openworkflow.commons</groupId>
+    <artifactId>openworkflow-commons-root</artifactId>
+    <version>8.0.0</version>
   </parent>
 
-  <artifactId>camunda-commons-utils</artifactId>
-  <name>camunda Commons - Utils</name>
+  <artifactId>openworkflow-commons-utils</artifactId>
+  <name>openworkflow Commons - Utils</name>
   <packaging>jar</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-logging</artifactId>
+      <groupId>co.openworkflow.commons</groupId>
+      <artifactId>openworkflow-commons-logging</artifactId>
       <version>${project.version}</version>
     </dependency>
 

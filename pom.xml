@@ -2,14 +2,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.camunda.commons</groupId>
-    <artifactId>camunda-commons-bom</artifactId>
-    <version>1.13.0</version>
+    <groupId>co.openworkflow.commons</groupId>
+    <artifactId>openworkflow-commons-bom</artifactId>
+    <version>8.0.0</version>
     <relativePath>bom</relativePath>
   </parent>
 
-  <artifactId>camunda-commons-root</artifactId>
-  <name>camunda Commons - Root Pom</name>
+  <artifactId>openworkflow-commons-root</artifactId>
+  <name>openworkflow Commons - Root Pom</name>
+  <version>8.0.0</version>
   <inceptionYear>2014</inceptionYear>
   <packaging>pom</packaging>
 
@@ -75,7 +76,7 @@
           <artifactId>maven-bundle-plugin</artifactId>
           <configuration>
             <instructions>
-              <Export-Package>org.camunda*</Export-Package>
+              <Export-Package>co.openworkflow*</Export-Package>
             </instructions>
           </configuration>
           <executions>
@@ -127,9 +128,9 @@
   </profiles>
 
   <scm>
-    <url>https://github.com/camunda/camunda-commons</url>
-    <connection>scm:git:git@github.com:camunda/camunda-commons.git</connection>
-    <developerConnection>scm:git:git@github.com:camunda/camunda-commons.git</developerConnection>
+    <url>https://github.com/openworkflow/openworkflow-commons</url>
+    <connection>scm:git:git@github.com:openworkflow/openworkflow-commons.git</connection>
+    <developerConnection>scm:git:git@github.com:openworkflow/openworkflow-commons.git</developerConnection>
     <tag>1.13.0</tag>
   </scm>
 

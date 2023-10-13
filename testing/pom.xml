@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.camunda.commons</groupId>
-    <artifactId>camunda-commons-root</artifactId>
-    <version>1.13.0</version>
+    <groupId>co.openworkflow.commons</groupId>
+    <artifactId>openworkflow-commons-root</artifactId>
+    <version>8.0.0</version>
   </parent>
 
-  <artifactId>camunda-commons-testing</artifactId>
-  <name>camunda Commons - Testing</name>
+  <artifactId>openworkflow-commons-testing</artifactId>
+  <name>openworkflow Commons - Testing</name>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -30,8 +30,8 @@
 
     <!-- TEST -->
     <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-logging</artifactId>
+      <groupId>co.openworkflow.commons</groupId>
+      <artifactId>openworkflow-commons-logging</artifactId>
       <scope>test</scope>
     </dependency>
 

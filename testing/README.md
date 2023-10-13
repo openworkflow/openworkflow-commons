@@ -1,4 +1,4 @@
-#camunda commons Testing
+#openworkflow commons Testing
 
 This project provides utility classes for Testing that are used in several Camunda projects
 
